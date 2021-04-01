@@ -1,12 +1,12 @@
 Version history
 ===============
 
-Version 1.40 (2021-01-30):
+Version 1.40 (2021-03-15):
 
 -   Added new font metadata values for font design size, barline separation, H-bar thickness, and preferred text fonts to accompany music fonts ([#95](https://github.com/w3c/smufl/issues/95), [#102](https://github.com/w3c/smufl/issues/102), [#124](https://github.com/w3c/smufl/issues/124), [#131](https://github.com/w3c/smufl/issues/131))
 -   Added clarification for registration of glyphs in the [Rests](../tables/rests.md) range ([#100](https://github.com/w3c/smufl/issues/100))
 -   Added `fingeringQLower` (U+ED8E) and `fingeringSLower` (U+ED8F) glyphs in the [Fingering supplement](../tables/fingering-supplement.md) range
--   Added `figbassTripleFlat` (U+ECC1) and `figbassTripleSharp` (U+ECC2)
+-   Added `figbassTripleFlat` (U+ECC1) and `figbassTripleSharp` (U+ECC2) in the [Figured bass supplement](../tables/figured-bass-supplement.md) range 
 -   Added headless notes (U+E204–U+E20A) to [Beamed groups of notes](../tables/beamed-groups-of-notes.md) range ([#77](https://github.com/w3c/smufl/issues/77))
 -   Added glyphs to new [Scale degrees](../tables/scale-degrees.md) range (U+EF00–U+EF07) ([#64](https://github.com/w3c/smufl/issues/64))
 -   Added glyphs in new [Note name noteheads supplement](../tables/note-name-noteheads-supplement.md) range (U+EEE0–U+EEFF) ([#82](https://github.com/w3c/smufl/issues/82))
@@ -25,6 +25,7 @@ Version 1.40 (2021-01-30):
 -   Added recommended stylistic alternates for U+E4A0 and U+E4A1, Rossini accent above and below ([#134](https://github.com/w3c/smufl/issues/134))
 -   Added [Extended Helmholtz-Ellis accidentals (just intonation) supplement](../tables/extended-helmholtz-ellis-accidentals-just-intonation-supplement.md) range (U+EE50–U+EE5F); revised appearance of `accidentalCombiningLower31Schisma` (U+E2EC) and `accidentalCombiningRaise31Schisma` (U+E2ED) ([#126](https://github.com/w3c/smufl/issues/126))
 -   Added glyphs to the [Olympian Sagittal extension (extreme precision) accidental diacritics](../tables/olympian-sagittal-extension-extreme-precision-accidental-diacritics.md) (U+E3F4–U+E3F7) and [Magrathean Sagittal extension (insane precision) accidental diacritics](../tables/magrathean-sagittal-extension-insane-precision-accidental-diacritics.md) (U+E3F8–U+E41F) ranges of Sagittal accidentals ([#156](https://github.com/w3c/smufl/issues/156))
+-   Added clarification to the [Beamed groups of notes](../tables/beamed-groups-of-notes.md), [Metronome marks](../tables/metronome-marks.md) and [Standard accidentals for chord symbols](../tables/standard-accidentals-for-chord-symbols.md) ranges that these glyphs should all follow the guidelines for text-based applications, even in fonts primarily intended for use with scoring applications ([#178](https://github.com/w3c/smufl/issues/178))
 
 Version 1.30 (2019-01-14):
 
